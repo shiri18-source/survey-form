@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Maasaret Shiri Survey Form</h1>
+    <p id="description">this survey is to rate your experience at the al shiri maasara</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Enter name:
+      <input id="name" type="text" name="name" placeholder="alex wavy" required ></label>
+      <label id="email-label" for="email">Enter email:
+      <input id="email" type="email" name="email" required placeholder="example@email.com"></label>
+      <label id="number-label"for="number">Enter number:
+      <input id="number" type="number" name="number" min="18" max="10000" placeholder="+961 ** *** ***" required ></label>
+      <select id="dropdown">
+        <option>lebanese</option>
+        <option>non-lebanese</option>
+      </select>
+      <input type="radio" name="sakan" id="sakan" value="in-lebanon">In Lebanon
+      <input type="radio" name="sakan" id="sakane" value="not-in-lebanon">Not-In Lebanon 
+      <fieldset>
+        <legend>How much did you like our service</legend>
+        <label for="rating">Very Much
+      <input type="checkbox" name="rating" id="rating" value="very-much"></label>
+      <label for="rating">Good
+      <input type="checkbox" name="rating" id="rating" value="good"></label>
+      <label for="rating">Not Good
+      <input type="checkbox" name="rating" id="rating" value="not-good"></label>
+      <label for="rating">Bad
+      <input type="checkbox" name="rating" id="rating" value="bad"></label>
+      </fieldset>
+       <fieldset>
+        <legend>How much did you like our oil</legend>
+        <label for="rating">Very Much
+      <input type="checkbox" name="rating" id="rating" value="very-much"></label>
+      <label for="rating">Good
+      <input type="checkbox" name="rating" id="rating" value="good"></label>
+      <label for="rating">Not Good
+      <input type="checkbox" name="rating" id="rating" value="not-good"></label>
+      <label for="rating">Bad
+      <input type="checkbox" name="rating" id="rating" value="bad"></label>
+      </fieldset>
+      <fieldset>
+        <legend>How much did you like our employees</legend>
+        <label for="rating">Very Much
+      <input type="checkbox" name="rating" id="rating" value="very-much"></label>
+      <label for="rating">Good
+      <input type="checkbox" name="rating" id="rating" value="good"></label>
+      <label for="rating">Not Good
+      <input type="checkbox" name="rating" id="rating" value="not-good"></label>
+      <label for="rating">Bad
+      <input type="checkbox" name="rating" id="rating" value="bad"></label>
+      </fieldset>
+      <label for="comments">Anything else you wanna say?</label>
+      <textarea rows="15" cols="25" id="comments">
+      </textarea>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
